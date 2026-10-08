@@ -1,0 +1,19 @@
+Mình viết theo chuẩn Linux/Mac (Bash), vì đường dẫn /home/OrderTech/ trong đề là kiểu Linux.
+
+Kịch bản hoàn thiện (Bash):
+
+mkdir drink_module
+
+cd drink_module
+
+touch coffee.txt tea.txt
+
+Giải thích ngắn:
+
+mkdir là lệnh tạo thư mục mới. cd là lệnh di chuyển vào thư mục. touch tạo file trống, và có thể ghi nhiều tên file cách nhau bằng khoảng trắng để tạo cùng lúc.
+
+Nếu dùng Windows (PowerShell): hai lệnh đầu giữ nguyên là mkdir và cd, riêng lệnh thứ ba đổi thành:
+
+New-Item coffee.txt, tea.txt
+
+(PowerShell cần dấu phẩy giữa các tên file, không dùng khoảng trắng.)
